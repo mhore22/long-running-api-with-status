@@ -3,6 +3,9 @@ using NUnit.Framework;
 
 namespace LongRunningJob.API.Test
 {
+    /// <summary>
+    /// You can run unit-test to exercise calling your long-running job.
+    /// </summary>
     public class Tests
     {
         [SetUp]
