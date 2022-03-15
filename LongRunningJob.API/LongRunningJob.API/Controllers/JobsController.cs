@@ -46,7 +46,7 @@ namespace LongRunningJob.API.Controllers
         [HttpGet("{id}/status-check")]
         public double StatusCheck(Guid id)
         {
-            return 0.7d;
+            return 0.8d;
         }
     }
 
